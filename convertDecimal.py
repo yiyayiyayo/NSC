@@ -10,7 +10,7 @@ binaryDic = dict(title=str(binary), subtitle="Binary", uid="binary", valid=True,
 b = alp.Item(**binaryDic)
 
 # calculate octal number
-octal = oct(int(sys.argv[1]))[1:]
+octal = oct(int(sys.argv[1]))[2:]
 # create associative array and create xml from it
 octalDic = dict(title=str(octal), subtitle="Octal", uid="octal", valid=True, arg=str(octal), icon="icons/octal.png")
 o = alp.Item(**octalDic)

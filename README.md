@@ -8,7 +8,7 @@
 **Licence:** [Attribution 3.0 Unported (CC BY 3.0)](http://creativecommons.org/licenses/by/3.0/ "Attribution 3.0 Unported (CC BY 3.0)")
 
 ## Quick Installation
-### Download [NSC v2.4](https://github.com/obstschale/NSC/raw/alfredextension/nsc-v2.4.alfredworkflow)
+### Download [NSC v3.0](https://github.com/yiyayiyayo/NSC/raw/alfredextension/nsc-v3.0.alfredworkflow)
 
 
 ---
@@ -69,6 +69,9 @@ Another cool feature of Alfred 2 is that you can pass arguments to other parts o
 ---
 
 ## Changelog
+### v3.0
+* support of python 3
+
 ### v2.4
 * enhancement: add version to `info.plist`. Props to @bbezanson #5 #6
 

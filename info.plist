@@ -124,7 +124,7 @@
 				<key>runningsubtext</key>
 				<string>converting ...</string>
 				<key>script</key>
-				<string>python convertOctal.py {query} 2&gt;&amp;1 | tee nsc.log</string>
+				<string>python3 convertOctal.py {query} 2&gt;&amp;1 | tee nsc.log</string>
 				<key>subtext</key>
 				<string>Type any octal number</string>
 				<key>title</key>
@@ -151,7 +151,7 @@
 				<key>runningsubtext</key>
 				<string>converting ...</string>
 				<key>script</key>
-				<string>python convertNumber.py {query} 2&gt;&amp;1 | tee nsc.log</string>
+				<string>python3 convertNumber.py {query} 2&gt;&amp;1 | tee nsc.log</string>
 				<key>subtext</key>
 				<string>convert number to other system</string>
 				<key>title</key>
@@ -178,7 +178,7 @@
 				<key>runningsubtext</key>
 				<string>converting ...</string>
 				<key>script</key>
-				<string>python convertBinary.py {query} 2&gt;&amp;1 | tee nsc.log</string>
+				<string>python3 convertBinary.py {query} 2&gt;&amp;1 | tee nsc.log</string>
 				<key>subtext</key>
 				<string>Type any binary number</string>
 				<key>title</key>
@@ -205,7 +205,7 @@
 				<key>runningsubtext</key>
 				<string>converting ...</string>
 				<key>script</key>
-				<string>python convertHex.py {query} 2&gt;&amp;1 | tee nsc.log</string>
+				<string>python3 convertHex.py {query} 2&gt;&amp;1 | tee nsc.log</string>
 				<key>subtext</key>
 				<string>Type any hexadecimal number</string>
 				<key>title</key>
@@ -255,7 +255,7 @@
 				<key>runningsubtext</key>
 				<string>converting ...</string>
 				<key>script</key>
-				<string>python convertDecimal.py {query} 2&gt;&amp;1 | tee nsc.log</string>
+				<string>python3 convertDecimal.py {query} 2&gt;&amp;1 | tee nsc.log</string>
 				<key>subtext</key>
 				<string>Type any decimal number</string>
 				<key>title</key>
@@ -327,7 +327,7 @@ The most common ones are the decimal, binary, octal and hexadecimal. But NSC als
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>2.4</string>
+	<string>3.0</string>
 	<key>webaddress</key>
 	<string>http://hanshelgebuerger.de</string>
 </dict>
