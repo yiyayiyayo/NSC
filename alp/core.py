@@ -21,7 +21,11 @@ def bundle():
 
     infoPath = os.path.abspath("./info.plist")
     if os.path.exists(infoPath):
-        info = plistlib.readPlist(infoPath)
+        if sys.version_info >= (3, 9):
+            with open(infoPath, 'rb') as f:
+                info = plistlib.load(f)
+        else:
+            info = plistlib.readPlist(infoPath)
         try:
             gBundleID = info["bundleid"]
         except KeyError:
